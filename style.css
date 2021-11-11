@@ -23,6 +23,18 @@ html, body {
     font-size: 1rem;
 }
 
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-anchor: start;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+
 img {
     width: 100%;
 }
@@ -39,22 +51,30 @@ img {
 
 }
 
-.container.image2{
-    max-width: 900px;
-    padding: 0;
-    border: black;
-}
-
 .container.caption{
-    padding: 0;
+    padding: 10px;
     font-size: .8rem;
+    text-align: left;
 
 }
 
 .container.chart{
     max-width: 900px;
-    padding: 0;
+    padding: 15px;
+}
 
+.chart.east{
+    text-align: left;
+}
+
+.chart.west{
+    text-align: left;
+}
+
+.container.icon{
+        font-size: 3rem;
+        text-align: center;
+        padding: 22px;
 }
 
 /*********************************************************************
